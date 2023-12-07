@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border-radius:6px;
+        }
+        .btn:hover{
+          background-color: goldenrod;
+        }
+
+    </style>
+</head>
+<body>
+<fieldset style="background-color:darkgray;">
+    <legend><b>FORMS</b></legend>
+
+    <form action="" style="margin-top:2%;">
+        <lable for="username">UserName:</lable>
+        <input type="text" id="username" placeholder="username" autofocus required>
+        <br>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="password">
+        <br>
+        <br>
+        <label for="confirm password">confirm password:</label>
+        <input type="password" id="confirm password" placeholder="password">
+        <br>
+        <br>
+        <label for="gender">gender</label>
+        <input type="radio" id="gender">Male
+        <input type="radio" id="gender">Female
+        <br>
+        <br>
+        <label for="type of education">Education Type:</label>
+        <Select>
+            <option>Bachelor of Technology</option>
+            <option>Degree</option>
+        </Select>
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="enter address"></textarea>
+        <br>
+        <br>
+        <label for="mail">E-mail:</label>
+        <input type="email" placeholder="Email" id="mail" autocomplete="off" novalidate>
+        <br>
+        <br>
+        <label id="place">place:</label>
+        <input type="text" placeholder="place" value="Hyderabad"readonly>
+        <br>
+        <br>
+        <label id="nationality">Nationality:</label>
+        <input type="text" id="nationality" value="Indian" disabled>
+        <br>
+        <br>
+        <label id="Number">Mobile Number:</label>
+        <input type="number" placeholder="mobile number" size="10">
+        <br>
+        <br>
+        <label for="pin">Pin:</label>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+        <br>
+        <br>
+        <label for="fileu">Upload Resume:</label>
+        <input type="file" id="fileu" multiple>
+        <br>
+        <small style="font-size: 10px;">uplaod resume of docx,jpeg or PDF format<sup style="font-size:small;">*</sup></small>
+        <br>
+        <br>
+        <label for="dob">Date Of Birth: </label>
+        <input type="date" id="dob">
+        <br>
+        <br>
+        <label for="cb"></label>
+        <input type="checkbox" id="cb"> I here to declare that information is True.
+        <br>
+        <br>
+        <input class="btn"type="submit" value="submit">
+    
+</fieldset>
+
+    </form>
+</body>
+</html>
