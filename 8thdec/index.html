@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+            color:yellow;
+        }
+        div>h1{/*child selector*/
+            color:brown;
+        }
+        div+h1{/*adjacent sibling*/
+            color:green;
+        }
+        div~h3{/*general sibling */
+            color:yellow;
+        }
+        div span{/*descendent slector*/
+            color:blue
+        }
+        div span h2{
+            color:white;
+        }
+        h5{
+            font-size: larger;
+            background-color: green;
+            color: blueviolet;
+            border: 10px solid white;
+            margin:20px ;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <h5>hello</h5>
+    <div>
+        <h1>namaste</h1>
+        <h1>Hyderabad</h1>
+        <h1>kirrak</h1>
+    </div>
+    <h1>hello</h1>
+    <h2>bhanu</h2>
+    <h3>aadhabh</h3>
+    <h4>vanakkam</h4>
+    <div>
+    <span><h2>namaste</h2></span>
+    <span><h1>Hyderabad</h1></span>
+    <span><h1>kirrak</h1></span>
+</div>
+</body>
+</html>
