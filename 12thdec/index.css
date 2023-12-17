@@ -1,0 +1,78 @@
+body{
+    background-image: url("./hotel.jpg");
+    background-size: cover;
+}
+div{
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.nav:active{
+    color:none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.h{
+    margin-left: 200%;
+    font-size: medium;
+}
+.s{
+    margin-left: 30%;
+    font-size: medium;
+    
+}
+#t{
+    margin-right:70%;
+    font-size:24px;
+}
+#mainh{
+    margin-top: 50%;
+    display: block;
+    width:100%;
+}
+h1{
+    font-size:65px;
+    font-weight: lighter;
+}
+#od{
+    margin-top:55%;
+    background-color: yellow;
+    opacity: 0.5;
+    display: block;
+    height:142px;
+    width:316%;
+    margin-bottom: -10%;
+    margin-left:-28%;
+    display: inline-block;
+   
+}
+.idi{
+    display:inline-block;
+    background-color: white;
+    width:20%;
+    height:100px;
+    margin-left:3%;
+    border: 1px solid black;
+    font-size:10px;
+    color:black;
+    text-align: center;
+    justify-content: center;
+}
+.sided{
+    background-color: black;
+    display:inline-block;
+    margin-left:35.5%;
+    height: 145px;
+    width:220px;
+    
+    margin-bottom:-10%;
+    margin-top:10%;
+    font-size:14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
