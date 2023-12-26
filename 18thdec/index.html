@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #iii{
+            height: 200px;
+            width:300px;
+            background-color: blue;
+            transition-duration:5s;
+            transition-property:all;
+            transition-delay: 2s;
+            transition-timing-function: linear;        
+
+        }
+        #iii:hover{
+            width:600px;
+            height: 400px;
+            background-color: green;
+            transform: rotate(180deg);
+        }
+        #i{
+            height: 200px;
+            width:300px;
+            background-color: gold;
+        }
+        #i:hover{
+            width:600px;
+            height:500px;
+            transform:translate(100px,200px);
+        }
+        #ii{
+            height:200px;
+            width:300px;
+            background-color: blueviolet;
+            transition-duration: 2s;
+        }
+        #ii:hover{
+            width: 10px;
+            height:10px;
+            transform: scale(1,3);
+        }
+    </style>
+</head>
+<body>
+    <div id="iii">hello</div>
+    <div id="i">bhanu</div>
+    <div id="ii">Teja</div>
+</body>
+</html>
