@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>
+        plus
+    </button>
+    <span></span>
+    <script>
+        var btn=document.getElementsByTagName("button")
+        btn[0].addEventListener("click",add)
+        var c=0
+        function add(){
+            var a=document.getElementsByTagName("span");
+            // document.body.appendChild(a); 
+            a[0].innerText=c;
+            c++;
+        }
+    </script>
+</body>
+</html>
