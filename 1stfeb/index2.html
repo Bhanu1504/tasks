@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button>25</button>
+    <button>50</button>
+    <button>75</button>
+    <button>100</button>
+
+    <script>
+        var br1=document.getElementsByTagName("button")
+        br1[0].addEventListener("click",one)
+        br1[1].addEventListener("click",two)
+        br1[2].addEventListener("click",three)
+        br1[3].addEventListener("click",four)
+
+        var a=document.createElement("div")
+        
+
+        function one(){
+            document.body.append(a);
+            a.style.width="25%"
+            a.style.height="30px"
+            a.style.backgroundColor="red"
+        }
+        function two(){
+            document.body.append(a);
+            a.style.height="30px"
+    a.style.width="50%"
+    a.style.backgroundColor="red"
+}
+function three(){
+    document.body.append(a);
+    a.style.height="30px"
+    a.style.width="75%"
+    a.style.backgroundColor="red"
+}
+function four(){
+    document.body.append(a);
+    a.style.width="100%"
+    a.style.backgroundColor="red"
+}
+    </script>
+</body>
+</html>

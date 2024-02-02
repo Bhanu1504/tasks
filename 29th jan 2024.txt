@@ -1,0 +1,147 @@
+29th jan 2024
+
+1.
+var a=[77,89,56,45,747,330,650];
+console.log("before sorting",a);
+for(i=0;i<a.length;i++){
+    for(j=i+1;j<a.length;j++){
+        if(a[i]>a[j]){
+            t=a[i];
+            a[i]=a[j];
+            a[j]=t;
+        }
+    }
+}
+var sum=0;
+for(k=0;k<a.length;k++){
+    if(k!=0 && k!=a.length-1){
+        sum=sum+a[k];
+    }
+}
+console.log("sum",sum);
+console.log("sorted",a);
+
+
+2.var a =[
+
+
+{
+    name:"chaitanya",
+    age:24
+},{
+    name:"chaitanya",
+    age:26
+
+}
+,
+{
+    name:"chaitanya",
+    age:28
+}
+
+      ]
+      for(i in a){
+          if(a[i]["age"]>25)
+          console.log(hi bhanu's is ${a[i]["age"]} old);
+      }
+3.// Online Javascript Editor for free
+var a =[
+
+
+{
+    name:"chaitanya",
+    age:24
+},{
+    name:"bhanuteja",
+    age:26
+
+}
+,
+{
+    name:"divya",
+    age:28
+}];
+      var e;
+      for(i in a){
+          e=a[i].name;
+          console.log(e);
+          for(j in e){
+              if(e[j].match(/[aeiou]/ig))
+              console.log(e[j]);
+          }
+// console.log(hi bhanu's is ${a[i]["age"]} old);
+      }
+
+
+
+4./*var a=[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL.AC_SL1500.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL.AC_SY879._SX._UX._SY._UY.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL.AC_UX679.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL.AC_UY879.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL.AC_UL640_QL65_ML3.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    }
+];
+var sum_rate=0;
+var sum_count=0;
+for(i in a){
+    sum_rate=sum_rate+a[i]["rating"]["rate"];
+    sum_count=sum_count+a[i]["rating"]["count"];
+}
+console.log(sum of rate:${sum_rate});
+console.log(sum of count:${sum_count});
+*/
