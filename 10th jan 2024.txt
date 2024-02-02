@@ -1,0 +1,26 @@
+10th jan 2024
+
+ 	a=5;
+	b=10;
+	c=prompt("Enter the operation to perform:")
+	switch(c){
+	    case "+":
+	        console.log(a+b);
+	        break;
+	    case "-":
+	        console.log(a-b);
+	        break;
+	    case "*":
+	        console.log(a*b);
+	        break;
+	    case "/":
+	        console.log(a/b);
+	        break;
+	    case "**":
+	        console.log(a**b);
+	         break;
+	    case "%":
+	        console.log(a%b);
+	        break;
+	    
+	}
