@@ -1,0 +1,80 @@
+
+
+
+doing all previous tasks using functions
+
+function tables(){
+var a=prompt("enter the starting table:");
+var b=prompt("enter the ending table:")
+for(i=a;i<=b;i++){
+    for(j=1;j<=10;j++){
+        console.log(i+"*"+j+"="+i*j)
+    }
+}
+}
+
+tables();
+
+function month(){
+a = prompt("Enter the symbol");
+b =+ prompt("Enter the number ");
+c =+ prompt("Enter the number ");
+var d 
+•	switch(a){
+•	    case "+":
+		d=a+b
+•	        console.log(d);
+•	        break;
+•	    case "-":
+•	        	d=a-b
+•	        console.log(d);
+		break;
+
+•	    case "*":
+•	       	d=a*b
+•	        console.log(d);
+		break;
+
+•	    case "/":
+•	       	d=a/b
+•	        console.log(d);
+
+•	        break;   
+•	    case "%":
+•	        	d=a%b
+•	        console.log(d);
+
+•	        break; 
+•	    default:
+•	        console.log("not symnol");
+•	        break;    
+•	}
+}
+
+
+
+function evenoddrepeat(){
+var a=prompt("enter the string");
+for(i=0;i<a.length;i++){
+    if(a[i]%2==0){
+        for(j=0;j<a[i];j++){
+            
+            console.log("it as even:",a[i]);
+        }
+    }else{
+         for(k=0;k<a[i];k++){
+             
+            console.log("it is an odd",a[i]);
+        }
+    }
+}
+}
+
+
+function evenoddterenary(){
+var a=+ prompt("enter the number:");
+
+(a%2==0) ? console.log("a is even",a):console.log("a is odd",a);
+}
+
+
